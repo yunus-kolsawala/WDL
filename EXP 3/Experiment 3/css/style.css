@@ -1,0 +1,113 @@
+/* css reset */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(246, 244, 241);
+}
+
+/* navbar */
+
+#navbar{
+    display: flex;
+    align-items: center;
+}
+
+#navbar ul{
+    display: flex;
+    position: absolute;
+    right: 40px;
+}
+
+#navbar ul li{
+    color: black;
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+#navbar ul li a{
+    color: black;
+    display: block;
+    padding: 5px 45px;
+    text-decoration: none;
+
+}
+
+#navbar ul li a:hover{
+    color: chocolate;
+}
+
+.item2{
+
+    border: 3px solid black;
+    border-radius: 25px;
+    margin: -2px 4px
+}
+#logo{
+    margin: 29px 50px;
+}
+
+/* heading */
+h1{
+    font-size: 3.5rem;
+    padding: 5px 5px;
+    text-decoration-line: underline;
+}
+
+/* form styling */
+
+.form{
+    /* margin: 80px 300px;
+    padding: 10px;
+    width: 25%; */
+}
+
+.container{
+    margin: 129px 172px;
+    /* border: 2px solid black; */
+    width: 600px;
+    height: 300px;
+    
+    padding: 30px 30px;
+}
+.container input{
+        border: 0;
+        outline: 0;
+        background: transparent;
+        border-bottom: 1.5px solid black;
+        margin: 5px;
+     
+}
+
+.btn{
+    margin: 15px 0px;
+    color: white;
+    border-radius: 25px;
+    background-color: black;
+    border: 2px solid black;
+}
+
+.btn:hover{
+    color: burlywood;
+}
+
+/* Detail */
+#detail{
+    margin: -428px 1105px;
+    width: 600px;
+    height: 300px;
+    /* border: 2px solid black; */
+}
+#detail p{
+    
+    color: rgb(126, 129, 129);
+    font-size: 20px;
+}
+
+
+
+/* Utility classe */
+.center{
+    text-align: center;
+}
